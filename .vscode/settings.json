@@ -1,0 +1,12 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "barack",
+            "group": "ouma family",
+            "database": "${workspaceFolder:database Migrations}/dev.sqlite3"
+        }
+    ]
+}
